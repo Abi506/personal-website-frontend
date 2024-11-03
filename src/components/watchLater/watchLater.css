@@ -1,0 +1,11 @@
+.watch-later-container{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+.video-title{
+    height: 100px;
+    overflow: auto;
+    font-size: 12px;
+}
