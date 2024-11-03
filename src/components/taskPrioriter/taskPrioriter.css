@@ -1,0 +1,52 @@
+.task-prioriter-container{
+    width:85%;
+}
+.task-custom-form{
+    width: 300px;
+}
+@media all and (max-width:550px) {
+    .task-prioriter-container{
+        width: 100%;
+    }
+}
+.custom-table-styles{
+    width: 100%;
+    box-sizing: border-box;
+    table-layout: inherit;
+}
+.task-prioriter-heading{
+    text-align: center;
+    table-layout: inherit;
+}
+.table-title-column {
+    width: 150px;
+}
+
+.table-description-column {
+    width: 250px;
+}
+
+.table-status-column {
+    width: 100px;
+}
+
+.table-priority-column {
+    width: 90px;
+}
+
+.table-actions-column {
+    width: 100px;
+}
+.mobile-table-row{
+    width:100%;
+}
+.mobile-title{
+    width: 50px;
+}
+.mobile-description{
+    width: 100px;
+    overflow: auto;
+}
+.task-details{
+    width: 100%;
+}
