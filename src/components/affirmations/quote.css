@@ -1,0 +1,15 @@
+.carousel-control-prev,
+.carousel-control-next {
+  width: 50px;
+  height: 50px;
+
+}
+
+.carousel-control-prev-icon,
+.carousel-control-next-icon {
+  background-color: black; /* Change the arrow color */
+  width: 40%;
+  padding: 10px;
+  height: 30%;
+  border-radius: 50%;
+}

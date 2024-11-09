@@ -93,7 +93,7 @@ const TaskPrioriter = () => {
     };
 
     return (
-        <div className='task-prioriter-container'>
+        <div className='task-prioriter-container' style={{backgroundColor:"f8f8ff"}}>
             <h1 className='task-prioriter-heading'>Task Prioriter</h1>
             <p>Today's Date: {todayDate}</p>
             {error && <p style={{ color: 'red' }}>{error}</p>}
