@@ -5,6 +5,7 @@ import { Container } from 'react-bootstrap'
 import {Link} from 'react-router-dom'
 import Book from '../book/book'
 import DisplayPdf from '../bookShow/bookShow'
+import Financials from '../financials/financials'
 const Home = () => {
   return (
     <Container className='home-container'>
@@ -14,9 +15,6 @@ const Home = () => {
    </div>
    <Book/>
    <DisplayPdf/>
-   <Link to="/watchLater">
-   <button className='btn btn-success mt-5'>Watch Later Videos</button>
-   </Link>
     </Container>
   )
 }
