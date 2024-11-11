@@ -3,10 +3,12 @@ import Home from './components/home/home'
 import WatchLater from './components/watchLater/watchLater'
 import Nav from './components/nav/nav'
 import Financials from './components/financials/financials'
+import Affirmations from './components/affirmations/quote'
 const App=()=>{
   return(
     <>
     <Nav/>
+    <Affirmations/>
   <Routes>
     <Route exact path='/' element={<Home/>} />
     <Route exact path='/watchLater' element={<WatchLater/>}/>

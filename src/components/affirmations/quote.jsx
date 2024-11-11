@@ -91,10 +91,10 @@ const Affirmations = () => {
     <Carousel.Item key={quote._id}>
       <div className="d-flex flex-column align-items-center p-4">
       {window.innerWidth<'400'&&(
-          <h4 style={{padding:"15px",width:"370px"}} >"{quote.text}"</h4>
+          <h4 style={{padding:"15px",width:"370px",marginLeft:"20px"}} >"{quote.text}"</h4>
         )}
         
-        {window.innerWidth>'400'&&(
+        {window.innerWidth>'450'&&(
           <h4 style={{padding:"15px",width:"500px"}} >"{quote.text}"</h4>
         )}
         <p>- {quote.author}</p>

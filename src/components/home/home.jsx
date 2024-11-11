@@ -9,12 +9,9 @@ import Financials from '../financials/financials'
 const Home = () => {
   return (
     <Container className='home-container'>
-   <Affirmations/>
    <div className='task-prioriter-container'>
    <TaskPrioriter/>
    </div>
-   <Book/>
-   <DisplayPdf/>
     </Container>
   )
 }

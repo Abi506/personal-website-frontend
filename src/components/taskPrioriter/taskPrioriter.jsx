@@ -147,8 +147,8 @@ const TaskPrioriter = () => {
                 </tbody>
             </Table>
 
-            <Button variant='primary' onClick={() => setShowForm(!showForm)}>
-                {showForm ? 'Cancel' : 'Add New Task'}
+            <Button variant='primary' onClick={() => setShowForm(!showForm)} style={{marginBottom:"20px"}}>
+                {showForm ? 'Cancel' : 'Add New Task'} 
             </Button>
             {showForm && (
     <Form onSubmit={handleAddTask} className='task-custom-form'>
