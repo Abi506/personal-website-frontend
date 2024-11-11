@@ -152,7 +152,7 @@ const WatchLater = () => {
                                 onClick={() => handleUrl(video.url)}
                             />
                         )}
-                        <h3 className="video-title">{video.title}</h3>
+                        <h3 className="video-title" onClick={() => handleUrl(video.url)}>{video.title}</h3>
                         <p>Status: {video.status}</p>
                         <p>{new Date(video.addedAt).toLocaleString()}</p>
                         <button onClick={() => handleMarkWatched(video._id)} style={{backgroundColor:"blue",color:"white",borderRadius:"4px"}} >
