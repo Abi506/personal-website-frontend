@@ -4,6 +4,7 @@ import WatchLater from './components/watchLater/watchLater'
 import Nav from './components/nav/nav'
 import Financials from './components/financials/financials'
 import Affirmations from './components/affirmations/quote'
+import Blog from './components/blog/blog'
 const App=()=>{
   return(
     <>
@@ -13,6 +14,7 @@ const App=()=>{
     <Route exact path='/' element={<Home/>} />
     <Route exact path='/watchLater' element={<WatchLater/>}/>
     <Route exact path='/financials' element={<Financials/>}/>
+    <Route exact path='/blog' element={<Blog/>}/>
   </Routes>
   </>
   )

@@ -4,3 +4,4 @@ export const taskPrioriterUrl=`${host}/taskPrioriter`
 export const watchLaterUrl=`${host}/videoWatchLater`
 export const quoteUrl=`${host}/quote`
 export const bookUrl=`${host}/book`
+export const blogUrl=`${host}/blog`

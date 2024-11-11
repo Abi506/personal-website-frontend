@@ -1,0 +1,31 @@
+/* You can add custom styles here if needed */
+
+.container {
+    max-width: 1200px;
+  }
+  
+  .card-body {
+    text-align: center;
+  }
+  
+  .card-title {
+    font-size: 1.2rem;
+    font-weight: bold;
+  }
+  /* Title Styling */
+.card-title {
+    font-size: 1.5rem; /* Sets font size to 1.5 times the root size */
+    font-weight: bold; /* Makes the title bold */
+    color: #333; /* Dark gray color */
+    text-align: center; /* Center aligns the title */
+    margin-bottom: 1rem; /* Adds space below the title */
+    text-transform: capitalize; /* Capitalizes the first letter of each word */
+  }
+  
+  /* Optional: Hover effect for the title */
+  .card-title:hover {
+    color: #929ba5; /* Changes color to blue on hover */
+    cursor: pointer; /* Adds a pointer cursor on hover */
+  }
+  
+  
